@@ -5,10 +5,13 @@ function gradeQuiz() {
     const q2Answer = document.getElementById('q2').value;
     const q3Answer = document.getElementById('q3').value.toLowerCase();
   
-    if (q1Answer === 'Witch King of Agmar') {
+    if (q1Answer === 'Witch King') {
       score += 1;
     }
-  
+    
+ 
+   }, 1000;
+
     if (q2Answer === 'Shadowfax') {
       score += 1;
     }
@@ -19,4 +22,8 @@ function gradeQuiz() {
   
     const result = document.getElementById('result');
     result.innerHTML = `Your score is ${score} out of 3.`;
+  
+   
+  function timed-quiz() {
+
   }
