@@ -26,4 +26,13 @@ function gradeQuiz() {
    
   function timed-quiz() {
 
+    function updateTimer() {
+      document.getElementById('timer').textContent = `Time remaining: ${timeRemaining}s`;
+      if (timeRemaining === 0) {
+        clearInterval(timer);
+        showResult();
+      } else {
+        timeRemaining--;
+      }
+
   }
