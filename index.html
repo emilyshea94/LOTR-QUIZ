@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <title>Lord of the Rings Quiz</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <h1>One Quiz to Rule them all</h1>
+      <p id="timerDisplay"></p>
+    </div>
+
+    <form id="quizForm" class="quiz-form">
+      <div class="question">
+        <h2><label for="q1">Who is the leader of the Nazgul?</label></h2>
+        <input type="text" id="q1" required><br><br>
+      </div>
+
+      <div class="question">
+        <h2><label for="q2">What is the name of Gandalf's horse?</label></h2>
+        <input type="text" id="q2" required><br><br>
+      </div>
+
+      <div class="question">
+        <h2><label for="q3">Fill in the blank: "You _______"</label></h2>
+        <input type="text" id="q3" required><br><br>
+      </div>
+
+      <input type="submit" value="Submit" class="submit-button">
+    </form>
+
+    <p id="result" class="quiz-result"></p>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
