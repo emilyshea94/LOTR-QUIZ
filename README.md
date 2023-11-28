@@ -24,7 +24,7 @@ screenshot showing page before anything is answered
 
 
 ## Credits
-N/A 
+I used some code from Stack Overflow and also had a friend help me with other code. 
 
 ## License
 MIT License
